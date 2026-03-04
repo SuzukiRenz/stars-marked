@@ -41,9 +41,9 @@ jobs:
 
           # ── AI 供应商配置 (选择一种填写) ──────────────────────────────
           # 方式 1：Anthropic Claude（默认）
-          AI_BASE_URL:  ${{ vars.AI_BASE_URL }}       # 默认: https://api.anthropic.com/openai/v1
+          AI_BASE_URL:  ${{ secrets.AI_BASE_URL }}       # 默认: https://api.anthropic.com/openai/v1
           AI_API_KEY:   ${{ secrets.AI_API_KEY }}     # Anthropic / OpenAI / DeepSeek 等 API Key
-          AI_MODEL:     ${{ vars.AI_MODEL }}          # 默认: claude-haiku-4-5-20251001
+          AI_MODEL:     ${{ secrets.AI_MODEL }}          # 默认: claude-haiku-4-5-20251001
 
           # ── 可选调参 ──────────────────────────────────────────────────
           # BATCH_SIZE:      20    # 每批发送的仓库数量
