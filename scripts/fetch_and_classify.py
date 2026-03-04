@@ -189,10 +189,16 @@ def main():
     # 加载已有分类数据
     existing: dict[int, dict] = {}
     if DATA_FILE.exists():
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            saved = json.load(f)
-            existing = {r["id"]: r for r in saved.get("repos", [])}
-        print(f"[缓存] 已加载 {len(existing)} 条历史分类")
+        try:
+            text = DATA_FILE.read_text(encoding="utf-8").strip()
+            if text:
+                saved = json.loads(text)
+                existing = {r["id"]: r for r in saved.get("repos", [])}
+                print(f"[缓存] 已加载 {len(existing)} 条历史分类")
+            else:
+                print("[缓存] stars.json 为空，将全量重新分类")
+        except json.JSONDecodeError as e:
+            print(f"[缓存] stars.json 解析失败 ({e})，将全量重新分类")
 
     # 抓取当前 Stars
     raw_stars   = fetch_all_stars(GITHUB_USER)
