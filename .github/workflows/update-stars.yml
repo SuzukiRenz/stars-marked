@@ -1,0 +1,65 @@
+name: ✨ 更新 GitHub Stars
+
+on:
+  schedule:
+    # 每天北京时间 10:00（UTC 02:00）自动运行
+    - cron: "0 8 7 * *"
+  workflow_dispatch:        # 支持手动在 Actions 页面触发
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"        # 脚本变更时自动重跑
+
+permissions:
+  contents: write           # 需要写权限来提交更新后的 stars.json
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 配置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 📦 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 🌟 抓取并分类 Stars
+        env:
+          # ── GitHub ──────────────────────────────────────────────────────
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 自动提供，无需手动添加
+
+          # ── 必填：你的 GitHub 用户名 ──────────────────────────────────
+          GITHUB_USER:  ${{ vars.GITHUB_USER }}       # 在 Settings → Variables 中设置
+
+          # ── AI 供应商配置 (选择一种填写) ──────────────────────────────
+          # 方式 1：Anthropic Claude（默认）
+          AI_BASE_URL:  ${{ vars.AI_BASE_URL }}       # 默认: https://api.anthropic.com/openai/v1
+          AI_API_KEY:   ${{ secrets.AI_API_KEY }}     # Anthropic / OpenAI / DeepSeek 等 API Key
+          AI_MODEL:     ${{ vars.AI_MODEL }}          # 默认: claude-haiku-4-5-20251001
+
+          # ── 可选调参 ──────────────────────────────────────────────────
+          # BATCH_SIZE:      20    # 每批发送的仓库数量
+          # RATE_LIMIT_GAP:  1.5   # 批次间隔秒数
+        run: python scripts/fetch_and_classify.py
+
+      - name: 💾 提交更新后的数据
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/stars.json
+          if git diff --staged --quiet; then
+            echo "✓ 数据无变化，跳过提交"
+          else
+            TOTAL=$(python -c "import json; d=json.load(open('docs/data/stars.json')); print(d['meta']['total'])")
+            git commit -m "chore: 更新 stars 数据 [$TOTAL repos · $(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
