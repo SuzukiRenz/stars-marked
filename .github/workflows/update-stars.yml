@@ -35,10 +35,9 @@ jobs:
       - name: 🌟 抓取并分类 Stars
         env:
           # ── GitHub ──────────────────────────────────────────────────────
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 自动提供，无需手动添加
-
-          # ── 必填：你的 GitHub 用户名 ──────────────────────────────────
-          GITHUB_USER:  ${{ vars.GITHUB_USER }}       # 在 Settings → Variables 中设置
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          # 自动提供，无需手动添加
+          # 优先用手动配置的用户名，否则回退到仓库所有者（自动）
+          GITHUB_USER:  ${{ vars.GITHUB_USER || github.repository_owner }}
 
           # ── AI 供应商配置 (选择一种填写) ──────────────────────────────
           # 方式 1：Anthropic Claude（默认）
