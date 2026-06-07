@@ -1,12 +1,25 @@
 {
   "meta": {
     "user": "SuzukiRenz",
-    "total": 195,
-    "updated_at": "2026-05-07T10:27:29.357015Z",
+    "total": 201,
+    "updated_at": "2026-06-07T10:30:58.000310Z",
     "category_count": 15,
     "ai_model": "nvidia/qwen/qwen3.5-397b-a17b"
   },
   "categories": {
+    "Uncategorized": {
+      "General": [
+        1127793756,
+        1137711311,
+        436286849,
+        1205523418,
+        1168073473,
+        1137078255,
+        1249261520,
+        469051838,
+        961357433
+      ]
+    },
     "Data Engineering": {
       "Data Pipeline": [
         872119017,
@@ -243,7 +256,6 @@
         276008164,
         642160545,
         599735720,
-        756611765,
         736322676,
         785129076,
         745612559,
@@ -288,12 +300,6 @@
         88327406
       ]
     },
-    "Uncategorized": {
-      "General": [
-        469051838,
-        961357433
-      ]
-    },
     "Programming Language": {
       "Language Tool": [
         38029983
@@ -314,6 +320,152 @@
     }
   },
   "repos": [
+    {
+      "id": 1127793756,
+      "full_name": "fengshao1227/ccg-workflow",
+      "name": "ccg-workflow",
+      "owner": "fengshao1227",
+      "html_url": "https://github.com/fengshao1227/ccg-workflow",
+      "description": "多模型协作工作流引擎 — /ccg:go 一个命令，AI 自动分析意图、选择策略、编排 Codex + Gemini + Claude 协作执行",
+      "homepage": "https://ccg.fengshao1227.com",
+      "topics": [
+        "agent-teams",
+        "ai",
+        "ccg",
+        "claude-code",
+        "cli",
+        "codex",
+        "gemini",
+        "llm",
+        "no-de",
+        "nodejs",
+        "opsxspec",
+        "prompt",
+        "workflow"
+      ],
+      "language": "Go",
+      "stars": 5475,
+      "forks": 419,
+      "updated_at": "2026-06-07T09:34:19Z",
+      "starred_at": "2026-06-07T10:30:57.958735Z",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": 1137711311,
+      "full_name": "Hmbown/CodeWhale",
+      "name": "CodeWhale",
+      "owner": "Hmbown",
+      "html_url": "https://github.com/Hmbown/CodeWhale",
+      "description": "DeepSeek + MiMo coding agent in terminal",
+      "homepage": "https://codewhale.net/",
+      "topics": [
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "language": "Rust",
+      "stars": 37391,
+      "forks": 3214,
+      "updated_at": "2026-06-07T10:29:33Z",
+      "starred_at": "2026-06-07T10:30:57.958674Z",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": 436286849,
+      "full_name": "RayWangQvQ/BiliBiliToolPro",
+      "name": "BiliBiliToolPro",
+      "owner": "RayWangQvQ",
+      "html_url": "https://github.com/RayWangQvQ/BiliBiliToolPro",
+      "description": "B 站（bilibili）自动任务工具，支持docker、青龙、k8s等多种部署方式。全面拥抱AI。敏感肌也能用。",
+      "homepage": "",
+      "topics": [
+        "bilibili",
+        "blazor",
+        "netcore",
+        "quartz-net",
+        "serilog"
+      ],
+      "language": "C#",
+      "stars": 8655,
+      "forks": 1906,
+      "updated_at": "2026-06-06T14:51:39Z",
+      "starred_at": "2026-06-07T10:30:57.958663Z",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": 1205523418,
+      "full_name": "QLHazyCoder/FlowPilot",
+      "name": "FlowPilot",
+      "owner": "QLHazyCoder",
+      "html_url": "https://github.com/QLHazyCoder/FlowPilot",
+      "description": "Chrome扩展：支持Codex(自动开通plus账号) / kiro 注册、验证码获取、CPA/sub回调验证与自动恢复",
+      "homepage": "https://flowpilot.qlhazycoder.top",
+      "topics": [],
+      "language": "JavaScript",
+      "stars": 4751,
+      "forks": 995,
+      "updated_at": "2026-06-07T09:36:01Z",
+      "starred_at": "2026-06-07T10:30:57.958656Z",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": 1168073473,
+      "full_name": "kittors/CliRelay",
+      "name": "CliRelay",
+      "owner": "kittors",
+      "html_url": "https://github.com/kittors/CliRelay",
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "homepage": "",
+      "topics": [],
+      "language": "Go",
+      "stars": 778,
+      "forks": 72,
+      "updated_at": "2026-06-07T09:22:06Z",
+      "starred_at": "2026-06-07T10:30:57.958648Z",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": 1137078255,
+      "full_name": "colbymchenry/codegraph",
+      "name": "codegraph",
+      "owner": "colbymchenry",
+      "html_url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "homepage": "https://colbymchenry.github.io/codegraph/",
+      "topics": [],
+      "language": "TypeScript",
+      "stars": 43418,
+      "forks": 2667,
+      "updated_at": "2026-06-07T10:24:58Z",
+      "starred_at": "2026-06-07T10:30:57.958639Z",
+      "category": null,
+      "subcategory": null
+    },
+    {
+      "id": 1249261520,
+      "full_name": "baoweise-bot/aimili-vpngate",
+      "name": "aimili-vpngate",
+      "owner": "baoweise-bot",
+      "html_url": "https://github.com/baoweise-bot/aimili-vpngate",
+      "description": "aimili-vpngate是一个借助vpngate.net让Linux用干净ip出站的代理工具。",
+      "homepage": "",
+      "topics": [],
+      "language": "Python",
+      "stars": 923,
+      "forks": 322,
+      "updated_at": "2026-06-07T09:37:09Z",
+      "starred_at": "2026-06-07T10:30:57.958617Z",
+      "category": null,
+      "subcategory": null
+    },
     {
       "id": 872119017,
       "full_name": "D4Vinci/Scrapling",
@@ -345,9 +497,9 @@
         "xpath"
       ],
       "language": "Python",
-      "stars": 46823,
-      "forks": 4331,
-      "updated_at": "2026-05-07T10:24:42Z",
+      "stars": 61768,
+      "forks": 5978,
+      "updated_at": "2026-06-07T10:20:34Z",
       "starred_at": "2026-05-07T10:27:16.816597Z",
       "category": "Data Engineering",
       "subcategory": "Data Pipeline"
@@ -362,9 +514,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 119,
+      "stars": 129,
       "forks": 22,
-      "updated_at": "2026-05-06T11:05:49Z",
+      "updated_at": "2026-06-02T02:28:40Z",
       "starred_at": "2026-05-07T10:27:16.816593Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -382,9 +534,9 @@
         "playwright"
       ],
       "language": "TypeScript",
-      "stars": 32129,
-      "forks": 2635,
-      "updated_at": "2026-05-07T10:05:16Z",
+      "stars": 33574,
+      "forks": 2766,
+      "updated_at": "2026-06-07T06:52:34Z",
       "starred_at": "2026-05-07T10:27:16.816589Z",
       "category": "Developer Tools",
       "subcategory": "Testing"
@@ -396,14 +548,12 @@
       "owner": "buyi06",
       "html_url": "https://github.com/buyi06/tgstate-rust",
       "description": "Telegram 文件/图床管理面板（FastAPI + Web UI），一键 Docker 部署，支持上传、分享、下载与删除。",
-      "homepage": "http://35.212.135.180:8000/",
-      "topics": [
-        "tgstate-python"
-      ],
+      "homepage": "",
+      "topics": [],
       "language": "Rust",
-      "stars": 139,
-      "forks": 38,
-      "updated_at": "2026-05-03T04:04:23Z",
+      "stars": 140,
+      "forks": 40,
+      "updated_at": "2026-05-30T07:55:19Z",
       "starred_at": "2026-05-07T10:27:16.816585Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -429,9 +579,9 @@
         "workflow-automation"
       ],
       "language": "TypeScript",
-      "stars": 1980,
-      "forks": 156,
-      "updated_at": "2026-05-07T09:06:15Z",
+      "stars": 2087,
+      "forks": 167,
+      "updated_at": "2026-06-07T09:29:32Z",
       "starred_at": "2026-05-07T10:27:16.816581Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -463,9 +613,9 @@
         "openclaw"
       ],
       "language": "Python",
-      "stars": 136762,
-      "forks": 21007,
-      "updated_at": "2026-05-07T10:26:35Z",
+      "stars": 185202,
+      "forks": 31821,
+      "updated_at": "2026-06-07T10:30:50Z",
       "starred_at": "2026-05-07T10:27:16.816575Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -476,7 +626,7 @@
       "name": "sub2api",
       "owner": "Wei-Shaw",
       "html_url": "https://github.com/Wei-Shaw/sub2api",
-      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "homepage": "",
       "topics": [
         "2api",
@@ -490,9 +640,9 @@
         "gemini"
       ],
       "language": "Go",
-      "stars": 18507,
-      "forks": 3358,
-      "updated_at": "2026-05-07T10:26:26Z",
+      "stars": 25829,
+      "forks": 4991,
+      "updated_at": "2026-06-07T10:21:34Z",
       "starred_at": "2026-05-07T10:27:16.816554Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -507,9 +657,9 @@
       "homepage": "https://picoclaw.io",
       "topics": [],
       "language": "Go",
-      "stars": 28828,
-      "forks": 4127,
-      "updated_at": "2026-05-07T10:14:55Z",
+      "stars": 29307,
+      "forks": 4200,
+      "updated_at": "2026-06-07T08:39:58Z",
       "starred_at": "2026-04-07T09:07:46.699596Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -537,10 +687,10 @@
         "go-cron-panel",
         "gocron"
       ],
-      "language": "Vue",
-      "stars": 549,
-      "forks": 60,
-      "updated_at": "2026-05-06T16:04:46Z",
+      "language": "Go",
+      "stars": 597,
+      "forks": 71,
+      "updated_at": "2026-06-07T05:34:52Z",
       "starred_at": "2026-04-07T09:07:46.699590Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -561,9 +711,9 @@
         "gpt"
       ],
       "language": "TypeScript",
-      "stars": 1790,
-      "forks": 509,
-      "updated_at": "2026-05-07T09:54:00Z",
+      "stars": 1814,
+      "forks": 516,
+      "updated_at": "2026-06-06T04:11:28Z",
       "starred_at": "2026-04-07T09:07:46.699583Z",
       "category": "AI / Machine Learning",
       "subcategory": "LLM / Chat"
@@ -578,9 +728,9 @@
       "homepage": "http://chenglou.me/pretext/",
       "topics": [],
       "language": "TypeScript",
-      "stars": 46382,
-      "forks": 2571,
-      "updated_at": "2026-05-07T10:21:26Z",
+      "stars": 48200,
+      "forks": 2687,
+      "updated_at": "2026-06-07T10:11:22Z",
       "starred_at": "2026-04-07T09:07:46.699576Z",
       "category": "Web Development",
       "subcategory": "Web Performance"
@@ -595,9 +745,9 @@
       "homepage": "",
       "topics": [],
       "language": "Rust",
-      "stars": 190495,
-      "forks": 109741,
-      "updated_at": "2026-05-07T10:25:53Z",
+      "stars": 193415,
+      "forks": 109964,
+      "updated_at": "2026-06-07T09:48:38Z",
       "starred_at": "2026-04-07T09:07:46.699569Z",
       "category": "Developer Tools",
       "subcategory": "Code Editor / IDE"
@@ -611,10 +761,10 @@
       "description": "一个多功能Linux&win服务器WEB终端面板(webSSH&webSFTP). 更新通知TG：",
       "homepage": "https://t.me/easynode_notify",
       "topics": [],
-      "language": "Vue",
-      "stars": 1962,
-      "forks": 274,
-      "updated_at": "2026-05-06T09:38:10Z",
+      "language": "Dart",
+      "stars": 1968,
+      "forks": 275,
+      "updated_at": "2026-06-07T10:24:13Z",
       "starred_at": "2026-04-07T09:07:46.699557Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Monitoring"
@@ -635,9 +785,9 @@
         "security-tools"
       ],
       "language": "TypeScript",
-      "stars": 41419,
-      "forks": 4686,
-      "updated_at": "2026-05-07T09:49:53Z",
+      "stars": 44343,
+      "forks": 5135,
+      "updated_at": "2026-06-07T10:14:25Z",
       "starred_at": "2026-04-07T09:07:46.699530Z",
       "category": "Security",
       "subcategory": "Penetration Testing"
@@ -658,9 +808,9 @@
         "envoy"
       ],
       "language": "Go",
-      "stars": 8320,
-      "forks": 1095,
-      "updated_at": "2026-05-07T08:47:04Z",
+      "stars": 8580,
+      "forks": 1143,
+      "updated_at": "2026-06-07T07:49:50Z",
       "starred_at": "2026-03-24T03:18:06.623137Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -690,9 +840,9 @@
         "workers"
       ],
       "language": "JavaScript",
-      "stars": 28008,
-      "forks": 4188,
-      "updated_at": "2026-05-07T10:18:03Z",
+      "stars": 28085,
+      "forks": 4198,
+      "updated_at": "2026-06-07T09:25:12Z",
       "starred_at": "2026-03-24T03:18:06.623131Z",
       "category": "Data Engineering",
       "subcategory": "Data Pipeline"
@@ -707,9 +857,9 @@
       "homepage": "https://clianything.cc/",
       "topics": [],
       "language": "Python",
-      "stars": 33835,
-      "forks": 3307,
-      "updated_at": "2026-05-07T10:07:05Z",
+      "stars": 42234,
+      "forks": 3991,
+      "updated_at": "2026-06-07T10:23:52Z",
       "starred_at": "2026-03-24T03:18:06.623125Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -720,7 +870,7 @@
       "name": "zeroclaw",
       "owner": "zeroclaw-labs",
       "html_url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
       "homepage": "https://www.zeroclawlabs.ai/",
       "topics": [
         "agent",
@@ -733,9 +883,9 @@
         "zeroclaw"
       ],
       "language": "Rust",
-      "stars": 31093,
-      "forks": 4576,
-      "updated_at": "2026-05-07T09:48:37Z",
+      "stars": 31811,
+      "forks": 4701,
+      "updated_at": "2026-06-07T10:23:16Z",
       "starred_at": "2026-03-24T03:18:06.623117Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -759,9 +909,9 @@
         "web"
       ],
       "language": "TypeScript",
-      "stars": 17609,
-      "forks": 1466,
-      "updated_at": "2026-05-07T09:55:56Z",
+      "stars": 18334,
+      "forks": 1569,
+      "updated_at": "2026-06-07T10:11:22Z",
       "starred_at": "2026-03-24T03:18:06.623107Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -795,9 +945,9 @@
         "vue3"
       ],
       "language": "HTML",
-      "stars": 7690,
-      "forks": 1313,
-      "updated_at": "2026-05-07T10:07:47Z",
+      "stars": 9701,
+      "forks": 1757,
+      "updated_at": "2026-06-07T09:40:34Z",
       "starred_at": "2026-03-24T03:18:06.623103Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -812,9 +962,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 1056,
-      "forks": 286,
-      "updated_at": "2026-05-06T15:50:35Z",
+      "stars": 1055,
+      "forks": 284,
+      "updated_at": "2026-06-06T02:48:30Z",
       "starred_at": "2026-03-24T03:18:06.623100Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -832,9 +982,9 @@
         "nginx-proxy"
       ],
       "language": "TypeScript",
-      "stars": 32736,
-      "forks": 3730,
-      "updated_at": "2026-05-07T09:01:45Z",
+      "stars": 33148,
+      "forks": 3770,
+      "updated_at": "2026-06-07T10:16:36Z",
       "starred_at": "2026-03-24T03:18:06.623096Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -870,9 +1020,9 @@
         "yubikey"
       ],
       "language": "Go",
-      "stars": 27719,
-      "forks": 1396,
-      "updated_at": "2026-05-07T10:25:27Z",
+      "stars": 27994,
+      "forks": 1419,
+      "updated_at": "2026-06-06T23:42:18Z",
       "starred_at": "2026-03-24T03:18:06.623091Z",
       "category": "Security",
       "subcategory": "Auth & Identity"
@@ -905,9 +1055,9 @@
         "sso"
       ],
       "language": "Python",
-      "stars": 21353,
-      "forks": 1588,
-      "updated_at": "2026-05-07T10:02:25Z",
+      "stars": 21853,
+      "forks": 1641,
+      "updated_at": "2026-06-07T08:39:48Z",
       "starred_at": "2026-03-24T03:18:06.623084Z",
       "category": "Security",
       "subcategory": "Auth & Identity"
@@ -918,7 +1068,7 @@
       "name": "claude-mem",
       "owner": "thedotmack",
       "html_url": "https://github.com/thedotmack/claude-mem",
-      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "homepage": "https://claude-mem.ai",
       "topics": [
         "ai",
@@ -943,9 +1093,9 @@
         "supermemory"
       ],
       "language": "TypeScript",
-      "stars": 73144,
-      "forks": 6280,
-      "updated_at": "2026-05-07T10:27:10Z",
+      "stars": 81041,
+      "forks": 6972,
+      "updated_at": "2026-06-07T10:27:42Z",
       "starred_at": "2026-03-24T03:18:06.623080Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -960,9 +1110,9 @@
       "homepage": "",
       "topics": [],
       "language": "Shell",
-      "stars": 237,
-      "forks": 41,
-      "updated_at": "2026-05-05T15:01:32Z",
+      "stars": 286,
+      "forks": 51,
+      "updated_at": "2026-06-06T18:47:36Z",
       "starred_at": "2026-03-24T03:18:06.623077Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -977,9 +1127,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 5122,
-      "forks": 696,
-      "updated_at": "2026-05-07T10:26:56Z",
+      "stars": 5301,
+      "forks": 727,
+      "updated_at": "2026-06-06T00:42:57Z",
       "starred_at": "2026-03-24T03:18:06.623073Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -1004,9 +1154,9 @@
         "wifi-call"
       ],
       "language": "",
-      "stars": 2841,
-      "forks": 209,
-      "updated_at": "2026-05-07T09:04:48Z",
+      "stars": 3808,
+      "forks": 262,
+      "updated_at": "2026-06-07T10:23:38Z",
       "starred_at": "2026-03-24T03:18:06.623069Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1021,9 +1171,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 79415,
-      "forks": 11596,
-      "updated_at": "2026-05-07T10:22:52Z",
+      "stars": 85424,
+      "forks": 12376,
+      "updated_at": "2026-06-07T10:27:36Z",
       "starred_at": "2026-03-24T03:18:06.623065Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -1053,9 +1203,9 @@
         "v2ray"
       ],
       "language": "C++",
-      "stars": 16513,
-      "forks": 3753,
-      "updated_at": "2026-05-07T07:54:05Z",
+      "stars": 16695,
+      "forks": 3803,
+      "updated_at": "2026-06-07T07:58:00Z",
       "starred_at": "2026-03-24T03:18:06.623061Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1075,9 +1225,9 @@
         "telegram-bot-api"
       ],
       "language": "HTML",
-      "stars": 117,
-      "forks": 16,
-      "updated_at": "2026-04-30T13:55:05Z",
+      "stars": 131,
+      "forks": 17,
+      "updated_at": "2026-06-06T09:31:13Z",
       "starred_at": "2026-03-24T03:18:06.623055Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -1106,9 +1256,9 @@
         "skill"
       ],
       "language": "Python",
-      "stars": 23584,
-      "forks": 1749,
-      "updated_at": "2026-05-07T09:53:06Z",
+      "stars": 25249,
+      "forks": 1949,
+      "updated_at": "2026-06-07T10:24:47Z",
       "starred_at": "2026-03-24T03:18:06.623029Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -1123,9 +1273,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 1456,
+      "stars": 1461,
       "forks": 484,
-      "updated_at": "2026-04-29T01:43:41Z",
+      "updated_at": "2026-05-30T02:44:40Z",
       "starred_at": "2026-03-08T18:19:50.923563Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1140,9 +1290,9 @@
       "homepage": "",
       "topics": [],
       "language": "Go",
-      "stars": 432,
-      "forks": 113,
-      "updated_at": "2026-04-27T16:25:29Z",
+      "stars": 430,
+      "forks": 112,
+      "updated_at": "2026-06-05T00:28:15Z",
       "starred_at": "2026-03-08T18:19:50.923557Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1166,9 +1316,9 @@
         "wechat"
       ],
       "language": "Python",
-      "stars": 848,
-      "forks": 107,
-      "updated_at": "2026-05-06T07:32:30Z",
+      "stars": 854,
+      "forks": 109,
+      "updated_at": "2026-06-03T23:19:23Z",
       "starred_at": "2026-03-08T18:19:50.923551Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -1198,9 +1348,9 @@
         "telegram-bot"
       ],
       "language": "Python",
-      "stars": 7499,
-      "forks": 657,
-      "updated_at": "2026-05-07T02:44:07Z",
+      "stars": 7554,
+      "forks": 659,
+      "updated_at": "2026-06-07T04:55:03Z",
       "starred_at": "2026-03-08T18:19:50.923546Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -1245,9 +1395,9 @@
         "qiandao"
       ],
       "language": "Python",
-      "stars": 5512,
-      "forks": 659,
-      "updated_at": "2026-05-06T09:34:04Z",
+      "stars": 5521,
+      "forks": 657,
+      "updated_at": "2026-06-06T08:17:09Z",
       "starred_at": "2026-03-08T18:19:50.923535Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1262,9 +1412,9 @@
       "homepage": "",
       "topics": [],
       "language": "Go",
-      "stars": 789,
-      "forks": 112,
-      "updated_at": "2026-04-25T09:33:44Z",
+      "stars": 783,
+      "forks": 111,
+      "updated_at": "2026-06-04T01:25:50Z",
       "starred_at": "2026-03-08T18:19:50.923529Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1283,9 +1433,9 @@
         "vmess"
       ],
       "language": "Shell",
-      "stars": 28922,
-      "forks": 16756,
-      "updated_at": "2026-05-07T08:02:29Z",
+      "stars": 29120,
+      "forks": 16730,
+      "updated_at": "2026-06-07T03:31:54Z",
       "starred_at": "2026-03-08T18:19:50.923524Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1306,9 +1456,9 @@
         "scriptables"
       ],
       "language": "JavaScript",
-      "stars": 1495,
-      "forks": 243,
-      "updated_at": "2026-05-07T05:06:25Z",
+      "stars": 1494,
+      "forks": 240,
+      "updated_at": "2026-05-31T18:01:41Z",
       "starred_at": "2026-03-08T18:19:50.923519Z",
       "category": "Mobile Development",
       "subcategory": "iOS"
@@ -1325,9 +1475,9 @@
         "boxjs"
       ],
       "language": "JavaScript",
-      "stars": 5507,
-      "forks": 1138,
-      "updated_at": "2026-05-07T09:25:51Z",
+      "stars": 5519,
+      "forks": 1137,
+      "updated_at": "2026-06-06T19:50:12Z",
       "starred_at": "2026-03-08T18:19:50.923509Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1338,13 +1488,13 @@
       "name": "tmall-miao",
       "owner": "MonsterNone",
       "html_url": "https://github.com/MonsterNone/tmall-miao",
-      "description": "喵币助手：618天猫（淘宝）、京东任务一键完成。HarmonyOS Next（鸿蒙5）版本开发中。",
+      "description": "喵币助手：618天猫（淘宝）、京东任务一键完成。电脑版，支持Android和HarmonyOS Next",
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 4001,
-      "forks": 493,
-      "updated_at": "2026-05-06T07:58:41Z",
+      "stars": 4031,
+      "forks": 492,
+      "updated_at": "2026-06-07T01:51:47Z",
       "starred_at": "2026-03-08T18:19:50.923503Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1359,9 +1509,9 @@
       "homepage": "",
       "topics": [],
       "language": "Go",
-      "stars": 378,
+      "stars": 381,
       "forks": 131,
-      "updated_at": "2026-04-22T03:21:15Z",
+      "updated_at": "2026-05-30T01:12:00Z",
       "starred_at": "2026-03-08T18:19:50.923498Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1376,9 +1526,9 @@
       "homepage": "",
       "topics": [],
       "language": "Kotlin",
-      "stars": 60273,
-      "forks": 17374,
-      "updated_at": "2026-05-07T09:15:44Z",
+      "stars": 60822,
+      "forks": 17626,
+      "updated_at": "2026-06-07T08:09:13Z",
       "starred_at": "2026-03-08T18:19:50.923492Z",
       "category": "Mobile Development",
       "subcategory": "Android"
@@ -1404,9 +1554,9 @@
         "v2ray"
       ],
       "language": "Go",
-      "stars": 15004,
-      "forks": 1523,
-      "updated_at": "2026-05-07T10:11:18Z",
+      "stars": 15163,
+      "forks": 1540,
+      "updated_at": "2026-06-07T07:32:14Z",
       "starred_at": "2026-03-08T18:19:50.923487Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1426,9 +1576,9 @@
         "python"
       ],
       "language": "Python",
-      "stars": 155193,
-      "forks": 11834,
-      "updated_at": "2026-05-07T10:19:58Z",
+      "stars": 160371,
+      "forks": 12122,
+      "updated_at": "2026-06-07T10:27:48Z",
       "starred_at": "2026-03-08T18:19:50.923482Z",
       "category": "Learning Resource",
       "subcategory": "Awesome List"
@@ -1449,9 +1599,9 @@
         "webdav-server"
       ],
       "language": "Rust",
-      "stars": 9801,
-      "forks": 1083,
-      "updated_at": "2026-05-07T09:36:32Z",
+      "stars": 9779,
+      "forks": 1079,
+      "updated_at": "2026-06-07T03:47:22Z",
       "starred_at": "2026-03-08T18:19:50.923476Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1466,9 +1616,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 201,
+      "stars": 199,
       "forks": 31,
-      "updated_at": "2026-05-03T15:37:36Z",
+      "updated_at": "2026-05-22T11:46:02Z",
       "starred_at": "2026-03-08T18:19:50.923470Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1491,9 +1641,9 @@
         "wxss"
       ],
       "language": "JavaScript",
-      "stars": 5132,
-      "forks": 1847,
-      "updated_at": "2026-05-06T14:43:39Z",
+      "stars": 5157,
+      "forks": 1846,
+      "updated_at": "2026-06-07T01:57:52Z",
       "starred_at": "2026-03-08T18:19:50.923465Z",
       "category": "Learning Resource",
       "subcategory": "Tutorial"
@@ -1510,7 +1660,7 @@
       "language": "Python",
       "stars": 755,
       "forks": 58,
-      "updated_at": "2026-05-07T04:56:29Z",
+      "updated_at": "2026-06-07T02:43:07Z",
       "starred_at": "2026-03-08T18:19:50.923459Z",
       "category": "AI / Machine Learning",
       "subcategory": "Computer Vision"
@@ -1531,9 +1681,9 @@
         "speedtest"
       ],
       "language": "Go",
-      "stars": 26449,
-      "forks": 5068,
-      "updated_at": "2026-05-07T09:28:00Z",
+      "stars": 27110,
+      "forks": 5178,
+      "updated_at": "2026-06-07T09:37:03Z",
       "starred_at": "2026-03-08T18:19:50.923450Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1554,9 +1704,9 @@
         "userscript"
       ],
       "language": "JavaScript",
-      "stars": 9626,
-      "forks": 685,
-      "updated_at": "2026-05-07T04:57:18Z",
+      "stars": 9702,
+      "forks": 682,
+      "updated_at": "2026-06-07T05:13:30Z",
       "starred_at": "2026-03-08T18:19:50.923445Z",
       "category": "Developer Tools",
       "subcategory": "Code Quality"
@@ -1592,9 +1742,9 @@
         "terraform"
       ],
       "language": "Python",
-      "stars": 14953,
-      "forks": 1689,
-      "updated_at": "2026-05-07T09:52:02Z",
+      "stars": 15216,
+      "forks": 1714,
+      "updated_at": "2026-06-07T00:46:35Z",
       "starred_at": "2026-03-08T18:19:50.923440Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -1621,9 +1771,9 @@
         "tencent"
       ],
       "language": "TypeScript",
-      "stars": 643,
-      "forks": 249,
-      "updated_at": "2026-05-01T12:57:51Z",
+      "stars": 642,
+      "forks": 248,
+      "updated_at": "2026-06-03T13:51:35Z",
       "starred_at": "2026-03-08T18:19:50.923435Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1656,9 +1806,9 @@
         "wechatapp"
       ],
       "language": "Kotlin",
-      "stars": 25536,
-      "forks": 3190,
-      "updated_at": "2026-05-07T09:07:46Z",
+      "stars": 26001,
+      "forks": 3240,
+      "updated_at": "2026-06-07T10:07:35Z",
       "starred_at": "2026-03-08T18:19:50.923430Z",
       "category": "Mobile Development",
       "subcategory": "Android"
@@ -1677,9 +1827,9 @@
         "unlock"
       ],
       "language": "JavaScript",
-      "stars": 11791,
-      "forks": 830,
-      "updated_at": "2026-05-07T07:18:32Z",
+      "stars": 11823,
+      "forks": 835,
+      "updated_at": "2026-06-07T03:24:19Z",
       "starred_at": "2026-03-08T18:19:50.923424Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1711,9 +1861,9 @@
         "web"
       ],
       "language": "Python",
-      "stars": 162755,
-      "forks": 30314,
-      "updated_at": "2026-05-07T10:13:56Z",
+      "stars": 163509,
+      "forks": 30363,
+      "updated_at": "2026-06-07T10:21:39Z",
       "starred_at": "2026-03-08T18:19:50.923419Z",
       "category": "AI / Machine Learning",
       "subcategory": "Computer Vision"
@@ -1745,9 +1895,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 182,
-      "forks": 15,
-      "updated_at": "2026-04-25T11:48:56Z",
+      "stars": 181,
+      "forks": 14,
+      "updated_at": "2026-05-14T00:42:16Z",
       "starred_at": "2026-03-08T18:19:50.923408Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1763,8 +1913,8 @@
       "topics": [],
       "language": "Python",
       "stars": 582,
-      "forks": 121,
-      "updated_at": "2026-05-06T16:54:16Z",
+      "forks": 120,
+      "updated_at": "2026-06-06T16:19:08Z",
       "starred_at": "2026-03-08T18:19:50.923400Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -1779,9 +1929,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 2230,
-      "forks": 421,
-      "updated_at": "2026-05-06T20:42:58Z",
+      "stars": 2232,
+      "forks": 419,
+      "updated_at": "2026-06-06T08:36:13Z",
       "starred_at": "2026-03-08T18:19:50.923390Z",
       "category": "AI / Machine Learning",
       "subcategory": "LLM / Chat"
@@ -1808,9 +1958,9 @@
         "tts"
       ],
       "language": "Python",
-      "stars": 4781,
-      "forks": 801,
-      "updated_at": "2026-05-07T05:42:19Z",
+      "stars": 4798,
+      "forks": 813,
+      "updated_at": "2026-06-07T02:00:38Z",
       "starred_at": "2026-03-08T18:19:50.923384Z",
       "category": "AI / Machine Learning",
       "subcategory": "Audio & Speech"
@@ -1831,9 +1981,9 @@
         "surge"
       ],
       "language": "JavaScript",
-      "stars": 461,
+      "stars": 464,
       "forks": 42,
-      "updated_at": "2026-04-27T03:17:38Z",
+      "updated_at": "2026-06-03T01:47:16Z",
       "starred_at": "2026-03-08T18:19:50.923379Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1873,9 +2023,9 @@
         "safari-extension"
       ],
       "language": "JavaScript",
-      "stars": 10736,
-      "forks": 855,
-      "updated_at": "2026-05-07T02:00:39Z",
+      "stars": 10740,
+      "forks": 860,
+      "updated_at": "2026-06-07T01:06:49Z",
       "starred_at": "2026-03-08T18:19:50.923368Z",
       "category": "AI / Machine Learning",
       "subcategory": "LLM / Chat"
@@ -1893,9 +2043,9 @@
         "mysql"
       ],
       "language": "Java",
-      "stars": 679,
+      "stars": 673,
       "forks": 171,
-      "updated_at": "2026-05-04T05:37:48Z",
+      "updated_at": "2026-05-30T00:47:31Z",
       "starred_at": "2026-03-08T18:19:50.923363Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -1910,9 +2060,9 @@
       "homepage": "",
       "topics": [],
       "language": "C++",
-      "stars": 4651,
-      "forks": 938,
-      "updated_at": "2026-05-07T09:36:24Z",
+      "stars": 4650,
+      "forks": 935,
+      "updated_at": "2026-06-04T23:53:49Z",
       "starred_at": "2026-03-08T18:19:50.923357Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Monitoring"
@@ -1927,9 +2077,9 @@
       "homepage": "https://t.me/ipscan_channel",
       "topics": [],
       "language": "",
-      "stars": 3746,
-      "forks": 1038,
-      "updated_at": "2026-05-07T03:02:35Z",
+      "stars": 3739,
+      "forks": 1027,
+      "updated_at": "2026-06-06T22:47:19Z",
       "starred_at": "2026-03-08T18:19:50.923351Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1961,9 +2111,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 2948,
-      "forks": 636,
-      "updated_at": "2026-05-07T01:16:45Z",
+      "stars": 2968,
+      "forks": 639,
+      "updated_at": "2026-06-07T04:00:48Z",
       "starred_at": "2026-03-08T18:19:50.923338Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -1981,9 +2131,9 @@
         "genshin-impact"
       ],
       "language": "Python",
-      "stars": 1295,
-      "forks": 211,
-      "updated_at": "2026-05-07T03:22:26Z",
+      "stars": 1314,
+      "forks": 217,
+      "updated_at": "2026-06-07T07:01:47Z",
       "starred_at": "2026-03-08T18:19:50.923329Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -2001,9 +2151,9 @@
         "ddddocr"
       ],
       "language": "Python",
-      "stars": 1106,
-      "forks": 492,
-      "updated_at": "2026-05-06T09:34:12Z",
+      "stars": 1110,
+      "forks": 494,
+      "updated_at": "2026-06-02T09:00:59Z",
       "starred_at": "2026-03-08T18:19:50.923322Z",
       "category": "AI / Machine Learning",
       "subcategory": "Computer Vision"
@@ -2018,9 +2168,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 20176,
-      "forks": 2309,
-      "updated_at": "2026-05-07T08:54:50Z",
+      "stars": 20374,
+      "forks": 2337,
+      "updated_at": "2026-06-07T08:45:11Z",
       "starred_at": "2026-03-08T18:19:50.923316Z",
       "category": "AI / Machine Learning",
       "subcategory": "Audio & Speech"
@@ -2044,9 +2194,9 @@
         "wallpaper"
       ],
       "language": "Python",
-      "stars": 248,
+      "stars": 251,
       "forks": 73,
-      "updated_at": "2026-05-02T15:08:52Z",
+      "updated_at": "2026-06-01T11:43:57Z",
       "starred_at": "2026-03-08T18:19:50.923310Z",
       "category": "Data Engineering",
       "subcategory": "Data Pipeline"
@@ -2061,9 +2211,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 2547,
-      "forks": 466,
-      "updated_at": "2026-05-03T15:10:38Z",
+      "stars": 2546,
+      "forks": 463,
+      "updated_at": "2026-05-29T13:32:31Z",
       "starred_at": "2026-03-08T18:19:50.923299Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -2085,9 +2235,9 @@
         "stable-diffusion-webui"
       ],
       "language": "Jupyter Notebook",
-      "stars": 657,
+      "stars": 653,
       "forks": 78,
-      "updated_at": "2026-03-17T15:26:46Z",
+      "updated_at": "2026-05-29T16:37:00Z",
       "starred_at": "2026-03-08T18:19:50.923294Z",
       "category": "AI / Machine Learning",
       "subcategory": "Computer Vision"
@@ -2098,34 +2248,30 @@
       "name": "CowAgent",
       "owner": "zhayujie",
       "html_url": "https://github.com/zhayujie/CowAgent",
-      "description": "CowAgent (chatgpt-on-wechat) 是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、通过长期记忆和知识库不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择DeepSeek/OpenAI/Claude/Gemini/ MiniMax/Qwen/GLM/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助理和企业数字员工。",
+      "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
       "homepage": "https://cowagent.ai",
       "topics": [
         "ai",
         "ai-agent",
+        "ai-agents",
         "chatgpt-on-wechat",
         "claude",
+        "claude-code",
+        "codex",
+        "cowagent",
         "deepseek",
-        "dingtalk",
-        "feishu-bot",
-        "gemini",
-        "kimi",
-        "linkai",
+        "harness",
         "llm",
         "mcp",
         "multi-agent",
         "openai",
         "openclaw",
-        "python3",
-        "qwen",
-        "skills",
-        "wechat",
-        "weixin"
+        "skills"
       ],
       "language": "Python",
-      "stars": 44121,
-      "forks": 10060,
-      "updated_at": "2026-05-07T09:36:45Z",
+      "stars": 45111,
+      "forks": 10177,
+      "updated_at": "2026-06-07T10:24:00Z",
       "starred_at": "2026-03-08T18:19:50.923287Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -2143,9 +2289,9 @@
         "live2d"
       ],
       "language": "JavaScript",
-      "stars": 10634,
-      "forks": 2616,
-      "updated_at": "2026-05-07T10:09:33Z",
+      "stars": 10720,
+      "forks": 2617,
+      "updated_at": "2026-06-07T08:23:36Z",
       "starred_at": "2026-03-08T18:19:50.923281Z",
       "category": "Web Development",
       "subcategory": "UI Component Library"
@@ -2181,9 +2327,9 @@
       "homepage": "",
       "topics": [],
       "language": "PHP",
-      "stars": 1719,
+      "stars": 1726,
       "forks": 346,
-      "updated_at": "2026-05-04T07:33:21Z",
+      "updated_at": "2026-06-07T08:52:32Z",
       "starred_at": "2026-03-08T18:19:50.923270Z",
       "category": "Web Development",
       "subcategory": "API & REST"
@@ -2198,9 +2344,9 @@
       "homepage": "",
       "topics": [],
       "language": "",
-      "stars": 1286,
-      "forks": 460,
-      "updated_at": "2026-05-04T04:51:02Z",
+      "stars": 1285,
+      "forks": 459,
+      "updated_at": "2026-06-05T07:16:19Z",
       "starred_at": "2026-03-08T18:19:50.923260Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -2231,9 +2377,9 @@
         "ubuntu"
       ],
       "language": "Shell",
-      "stars": 9165,
-      "forks": 2897,
-      "updated_at": "2026-05-07T07:25:10Z",
+      "stars": 9292,
+      "forks": 2944,
+      "updated_at": "2026-06-06T12:21:50Z",
       "starred_at": "2026-03-08T18:19:50.923253Z",
       "category": "System Programming",
       "subcategory": "Embedded"
@@ -2268,9 +2414,9 @@
         "security-tools"
       ],
       "language": "Python",
-      "stars": 17714,
-      "forks": 1475,
-      "updated_at": "2026-05-07T10:14:55Z",
+      "stars": 17933,
+      "forks": 1480,
+      "updated_at": "2026-06-07T08:31:57Z",
       "starred_at": "2026-03-08T18:19:50.923247Z",
       "category": "Security",
       "subcategory": "Network Security"
@@ -2285,9 +2431,9 @@
       "homepage": "",
       "topics": [],
       "language": "",
-      "stars": 3490,
-      "forks": 422,
-      "updated_at": "2026-05-07T09:02:44Z",
+      "stars": 3596,
+      "forks": 427,
+      "updated_at": "2026-06-07T10:29:30Z",
       "starred_at": "2026-03-08T18:19:50.923242Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -2308,9 +2454,9 @@
         "openwrt-zh-cn"
       ],
       "language": "C",
-      "stars": 31429,
-      "forks": 19368,
-      "updated_at": "2026-05-07T10:08:13Z",
+      "stars": 31463,
+      "forks": 19321,
+      "updated_at": "2026-06-06T15:09:13Z",
       "starred_at": "2026-03-08T18:19:50.923238Z",
       "category": "System Programming",
       "subcategory": "Embedded"
@@ -2346,9 +2492,9 @@
         "x96"
       ],
       "language": "Shell",
-      "stars": 2835,
-      "forks": 2374,
-      "updated_at": "2026-05-07T00:51:10Z",
+      "stars": 2879,
+      "forks": 2409,
+      "updated_at": "2026-06-06T20:35:58Z",
       "starred_at": "2026-03-08T18:19:50.923232Z",
       "category": "System Programming",
       "subcategory": "Embedded"
@@ -2365,9 +2511,9 @@
         "hacktoberfest"
       ],
       "language": "Shell",
-      "stars": 1929,
-      "forks": 628,
-      "updated_at": "2026-04-30T22:53:03Z",
+      "stars": 1924,
+      "forks": 623,
+      "updated_at": "2026-06-04T17:13:21Z",
       "starred_at": "2026-03-08T18:19:50.923227Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Infrastructure as Code"
@@ -2382,9 +2528,9 @@
       "homepage": "",
       "topics": [],
       "language": "Jupyter Notebook",
-      "stars": 182200,
-      "forks": 55669,
-      "updated_at": "2026-05-07T10:08:29Z",
+      "stars": 183122,
+      "forks": 55658,
+      "updated_at": "2026-06-07T10:28:11Z",
       "starred_at": "2026-03-08T18:19:50.923223Z",
       "category": "Learning Resource",
       "subcategory": "Tutorial"
@@ -2399,9 +2545,9 @@
       "homepage": "",
       "topics": [],
       "language": "",
-      "stars": 13620,
-      "forks": 3035,
-      "updated_at": "2026-05-07T07:44:41Z",
+      "stars": 13762,
+      "forks": 3076,
+      "updated_at": "2026-06-07T10:27:14Z",
       "starred_at": "2026-03-08T18:19:50.923218Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -2421,9 +2567,9 @@
         "dockerfiles"
       ],
       "language": "CSS",
-      "stars": 1290,
-      "forks": 282,
-      "updated_at": "2026-05-06T02:59:31Z",
+      "stars": 1296,
+      "forks": 281,
+      "updated_at": "2026-06-07T01:08:14Z",
       "starred_at": "2026-03-08T18:19:50.923212Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -2438,9 +2584,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 82,
+      "stars": 81,
       "forks": 41,
-      "updated_at": "2026-04-26T16:17:42Z",
+      "updated_at": "2026-05-26T14:34:28Z",
       "starred_at": "2026-03-08T18:19:50.923204Z",
       "category": "Web Development",
       "subcategory": "Backend Framework"
@@ -2462,9 +2608,9 @@
         "vue"
       ],
       "language": "Python",
-      "stars": 8254,
-      "forks": 1032,
-      "updated_at": "2026-05-06T14:21:20Z",
+      "stars": 8315,
+      "forks": 1036,
+      "updated_at": "2026-06-07T06:30:41Z",
       "starred_at": "2026-03-08T18:19:50.923199Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -2486,9 +2632,9 @@
         "zhuabao"
       ],
       "language": "Dart",
-      "stars": 13054,
-      "forks": 1113,
-      "updated_at": "2026-05-07T08:52:15Z",
+      "stars": 13240,
+      "forks": 1132,
+      "updated_at": "2026-06-07T09:50:30Z",
       "starred_at": "2026-03-08T18:19:50.923193Z",
       "category": "Developer Tools",
       "subcategory": "Debugging"
@@ -2505,7 +2651,7 @@
       "language": "TypeScript",
       "stars": 359,
       "forks": 63,
-      "updated_at": "2026-04-14T02:27:16Z",
+      "updated_at": "2026-06-05T13:42:57Z",
       "starred_at": "2026-03-08T18:19:50.923188Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Monitoring"
@@ -2541,9 +2687,9 @@
         "xtls-rprx-vision"
       ],
       "language": "Shell",
-      "stars": 20514,
-      "forks": 5408,
-      "updated_at": "2026-05-07T10:24:44Z",
+      "stars": 20912,
+      "forks": 5463,
+      "updated_at": "2026-06-07T10:10:41Z",
       "starred_at": "2026-03-08T18:19:50.923184Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -2575,9 +2721,9 @@
         "xtls-rprx-vision"
       ],
       "language": "JavaScript",
-      "stars": 8539,
-      "forks": 1786,
-      "updated_at": "2026-05-07T00:39:59Z",
+      "stars": 8536,
+      "forks": 1788,
+      "updated_at": "2026-06-07T07:54:10Z",
       "starred_at": "2026-03-08T18:19:50.923179Z",
       "category": null,
       "subcategory": null
@@ -2601,9 +2747,9 @@
         "vps"
       ],
       "language": "Dart",
-      "stars": 7910,
-      "forks": 489,
-      "updated_at": "2026-05-07T06:07:00Z",
+      "stars": 8030,
+      "forks": 493,
+      "updated_at": "2026-06-07T03:25:42Z",
       "starred_at": "2026-03-08T18:19:50.923174Z",
       "category": "Mobile Development",
       "subcategory": "Cross-platform"
@@ -2626,9 +2772,9 @@
         "wechat-bot"
       ],
       "language": "JavaScript",
-      "stars": 588,
-      "forks": 60,
-      "updated_at": "2026-05-06T20:30:22Z",
+      "stars": 597,
+      "forks": 64,
+      "updated_at": "2026-06-03T10:28:48Z",
       "starred_at": "2026-03-08T18:19:50.923168Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -2647,9 +2793,9 @@
         "telegram"
       ],
       "language": "Go",
-      "stars": 6403,
-      "forks": 991,
-      "updated_at": "2026-05-03T17:21:29Z",
+      "stars": 6406,
+      "forks": 994,
+      "updated_at": "2026-06-07T06:45:46Z",
       "starred_at": "2026-03-08T18:19:50.923162Z",
       "category": "Programming Language",
       "subcategory": "Language Tool"
@@ -2670,9 +2816,9 @@
         "watermark-removal"
       ],
       "language": "Python",
-      "stars": 6673,
-      "forks": 786,
-      "updated_at": "2026-05-07T10:02:27Z",
+      "stars": 6732,
+      "forks": 794,
+      "updated_at": "2026-06-06T15:00:44Z",
       "starred_at": "2026-03-08T18:19:50.923157Z",
       "category": "AI / Machine Learning",
       "subcategory": "Computer Vision"
@@ -2687,9 +2833,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 118,
-      "forks": 22,
-      "updated_at": "2026-04-21T03:51:39Z",
+      "stars": 117,
+      "forks": 21,
+      "updated_at": "2026-06-01T19:39:22Z",
       "starred_at": "2026-03-08T18:19:50.923147Z",
       "category": "Security",
       "subcategory": "Network Security"
@@ -2704,21 +2850,21 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 25974,
-      "forks": 3951,
-      "updated_at": "2026-05-07T09:20:02Z",
+      "stars": 26447,
+      "forks": 3971,
+      "updated_at": "2026-06-07T09:50:29Z",
       "starred_at": "2026-03-08T18:19:50.923142Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
     },
     {
       "id": 131143048,
-      "full_name": "xjh22222228/nav",
+      "full_name": "liuzi6612/nav",
       "name": "nav",
-      "owner": "xjh22222228",
-      "html_url": "https://github.com/xjh22222228/nav",
-      "description": "发现导航 , 好用强大轻量级导航网站 Discover navigation, easy to use, powerful lightweight navigation website",
-      "homepage": "https://official.nav3.cn",
+      "owner": "liuzi6612",
+      "html_url": "https://github.com/liuzi6612/nav",
+      "description": "发现导航，好用强大轻量级导航网站 Discover navigation, easy to use, powerful lightweight navigation website",
+      "homepage": "",
       "topics": [
         "ai-awesome",
         "angular",
@@ -2730,9 +2876,9 @@
         "vercel"
       ],
       "language": "TypeScript",
-      "stars": 3237,
-      "forks": 2386,
-      "updated_at": "2026-05-06T17:47:29Z",
+      "stars": 3248,
+      "forks": 2389,
+      "updated_at": "2026-06-05T07:12:30Z",
       "starred_at": "2026-03-08T18:19:50.923136Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -2752,9 +2898,9 @@
         "signin"
       ],
       "language": "JavaScript",
-      "stars": 2421,
-      "forks": 362,
-      "updated_at": "2026-05-05T00:30:31Z",
+      "stars": 2409,
+      "forks": 360,
+      "updated_at": "2026-06-05T07:16:26Z",
       "starred_at": "2026-03-08T18:19:50.923130Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -2780,9 +2926,9 @@
         "x11"
       ],
       "language": "Shell",
-      "stars": 52468,
-      "forks": 2890,
-      "updated_at": "2026-05-07T09:26:27Z",
+      "stars": 52566,
+      "forks": 2882,
+      "updated_at": "2026-06-07T09:17:08Z",
       "starred_at": "2026-03-08T18:19:50.923124Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -2818,9 +2964,9 @@
         "vps"
       ],
       "language": "Shell",
-      "stars": 6769,
-      "forks": 546,
-      "updated_at": "2026-05-07T10:10:03Z",
+      "stars": 6905,
+      "forks": 550,
+      "updated_at": "2026-06-07T06:08:33Z",
       "starred_at": "2026-03-08T18:19:50.923118Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Monitoring"
@@ -2863,9 +3009,9 @@
       "homepage": "",
       "topics": [],
       "language": "Go",
-      "stars": 242,
+      "stars": 241,
       "forks": 76,
-      "updated_at": "2026-01-19T13:03:51Z",
+      "updated_at": "2026-06-07T01:05:12Z",
       "starred_at": "2026-03-08T18:19:50.923107Z",
       "category": "AI / Machine Learning",
       "subcategory": "LLM / Chat"
@@ -2896,9 +3042,9 @@
         "wereader"
       ],
       "language": "HTML",
-      "stars": 14624,
-      "forks": 3808,
-      "updated_at": "2026-05-07T03:57:40Z",
+      "stars": 14644,
+      "forks": 3797,
+      "updated_at": "2026-06-07T06:50:12Z",
       "starred_at": "2026-03-08T18:19:50.923102Z",
       "category": "Learning Resource",
       "subcategory": "Tutorial"
@@ -2914,8 +3060,8 @@
       "topics": [],
       "language": "Python",
       "stars": 148,
-      "forks": 141,
-      "updated_at": "2026-03-19T09:27:12Z",
+      "forks": 144,
+      "updated_at": "2026-05-30T14:39:09Z",
       "starred_at": "2026-03-08T18:19:50.923096Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -2935,9 +3081,9 @@
         "subscription-links"
       ],
       "language": "Shell",
-      "stars": 577,
-      "forks": 257,
-      "updated_at": "2026-04-29T21:57:41Z",
+      "stars": 575,
+      "forks": 256,
+      "updated_at": "2026-06-04T10:13:09Z",
       "starred_at": "2026-03-08T18:19:50.923087Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -2953,8 +3099,8 @@
       "topics": [],
       "language": "Go",
       "stars": 13,
-      "forks": 11,
-      "updated_at": "2026-01-06T07:43:11Z",
+      "forks": 10,
+      "updated_at": "2026-05-19T03:11:57Z",
       "starred_at": "2026-03-08T18:19:50.923082Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -2969,9 +3115,9 @@
       "homepage": "https://cursor.com",
       "topics": [],
       "language": "",
-      "stars": 32836,
-      "forks": 2237,
-      "updated_at": "2026-05-07T08:41:30Z",
+      "stars": 32934,
+      "forks": 2251,
+      "updated_at": "2026-06-07T01:47:32Z",
       "starred_at": "2026-03-08T18:19:50.923077Z",
       "category": "Developer Tools",
       "subcategory": "Code Editor / IDE"
@@ -2994,9 +3140,9 @@
         "xbogus"
       ],
       "language": "Python",
-      "stars": 8605,
-      "forks": 1491,
-      "updated_at": "2026-05-07T09:08:46Z",
+      "stars": 8656,
+      "forks": 1489,
+      "updated_at": "2026-06-07T10:20:44Z",
       "starred_at": "2026-03-08T18:19:50.923072Z",
       "category": "Data Engineering",
       "subcategory": "Data Pipeline"
@@ -3013,7 +3159,7 @@
       "language": "HTML",
       "stars": 45,
       "forks": 12,
-      "updated_at": "2026-04-02T18:30:04Z",
+      "updated_at": "2026-05-29T02:58:38Z",
       "starred_at": "2026-03-08T18:19:50.923066Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -3028,9 +3174,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 965,
-      "forks": 100,
-      "updated_at": "2026-05-07T10:24:06Z",
+      "stars": 1029,
+      "forks": 108,
+      "updated_at": "2026-06-07T00:25:25Z",
       "starred_at": "2026-03-08T18:19:50.923060Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -3045,9 +3191,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 429,
+      "stars": 427,
       "forks": 42,
-      "updated_at": "2026-05-03T20:35:40Z",
+      "updated_at": "2026-06-01T05:58:06Z",
       "starred_at": "2026-03-08T18:19:50.923055Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -3062,9 +3208,9 @@
       "homepage": "",
       "topics": [],
       "language": "Objective-C",
-      "stars": 21345,
-      "forks": 1544,
-      "updated_at": "2026-05-07T10:02:27Z",
+      "stars": 21517,
+      "forks": 1577,
+      "updated_at": "2026-06-07T07:21:22Z",
       "starred_at": "2026-03-08T18:19:50.923049Z",
       "category": "Mobile Development",
       "subcategory": "iOS"
@@ -3086,9 +3232,9 @@
         "yuanshen"
       ],
       "language": "C#",
-      "stars": 13480,
-      "forks": 950,
-      "updated_at": "2026-05-07T08:13:42Z",
+      "stars": 13775,
+      "forks": 978,
+      "updated_at": "2026-06-07T10:06:11Z",
       "starred_at": "2026-03-08T18:19:50.923043Z",
       "category": "Game Development",
       "subcategory": "Game Tool"
@@ -3103,9 +3249,9 @@
       "homepage": "",
       "topics": [],
       "language": "JavaScript",
-      "stars": 787,
+      "stars": 786,
       "forks": 110,
-      "updated_at": "2026-05-06T09:40:18Z",
+      "updated_at": "2026-05-09T02:22:18Z",
       "starred_at": "2026-03-08T18:19:50.923037Z",
       "category": "Security",
       "subcategory": "Network Security"
@@ -3128,9 +3274,9 @@
         "redis"
       ],
       "language": "Shell",
-      "stars": 4084,
-      "forks": 1422,
-      "updated_at": "2026-05-06T07:38:23Z",
+      "stars": 4086,
+      "forks": 1419,
+      "updated_at": "2026-06-04T02:56:04Z",
       "starred_at": "2026-03-08T18:19:50.923029Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -3155,9 +3301,9 @@
         "xmrig"
       ],
       "language": "C",
-      "stars": 9920,
-      "forks": 3812,
-      "updated_at": "2026-05-07T03:43:21Z",
+      "stars": 9980,
+      "forks": 3813,
+      "updated_at": "2026-06-06T10:32:21Z",
       "starred_at": "2026-03-08T18:19:50.923024Z",
       "category": "System Programming",
       "subcategory": "Memory Management"
@@ -3190,9 +3336,9 @@
         "xaml"
       ],
       "language": "C#",
-      "stars": 25363,
-      "forks": 1625,
-      "updated_at": "2026-05-07T08:30:08Z",
+      "stars": 25724,
+      "forks": 1651,
+      "updated_at": "2026-06-07T07:24:49Z",
       "starred_at": "2026-03-08T18:19:50.923016Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -3211,6 +3357,7 @@
         "http",
         "hysteria2",
         "mixed",
+        "nodes",
         "post-quantum",
         "reality",
         "shadowsocks",
@@ -3225,10 +3372,10 @@
         "x25519",
         "xhttp"
       ],
-      "language": "HTML",
-      "stars": 36171,
-      "forks": 6675,
-      "updated_at": "2026-05-07T10:23:09Z",
+      "language": "TypeScript",
+      "stars": 39840,
+      "forks": 7466,
+      "updated_at": "2026-06-07T10:28:19Z",
       "starred_at": "2026-03-08T18:19:50.923010Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -3252,9 +3399,9 @@
         "windows-vm"
       ],
       "language": "Shell",
-      "stars": 51244,
-      "forks": 4273,
-      "updated_at": "2026-05-07T10:27:09Z",
+      "stars": 51629,
+      "forks": 4349,
+      "updated_at": "2026-06-07T09:50:37Z",
       "starred_at": "2026-03-08T18:19:50.923001Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -3289,9 +3436,9 @@
         "webui"
       ],
       "language": "TypeScript",
-      "stars": 87915,
-      "forks": 59761,
-      "updated_at": "2026-05-07T08:53:47Z",
+      "stars": 88187,
+      "forks": 59638,
+      "updated_at": "2026-06-07T09:39:23Z",
       "starred_at": "2026-03-08T18:19:50.922996Z",
       "category": "AI / Machine Learning",
       "subcategory": "LLM / Chat"
@@ -3325,9 +3472,9 @@
         "zerossl"
       ],
       "language": "Shell",
-      "stars": 46481,
-      "forks": 5564,
-      "updated_at": "2026-05-07T09:44:00Z",
+      "stars": 46817,
+      "forks": 5584,
+      "updated_at": "2026-06-07T10:24:44Z",
       "starred_at": "2026-03-08T18:19:50.922991Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Infrastructure as Code"
@@ -3342,9 +3489,9 @@
       "homepage": "",
       "topics": [],
       "language": "Python",
-      "stars": 1148,
-      "forks": 294,
-      "updated_at": "2026-05-07T00:11:42Z",
+      "stars": 1153,
+      "forks": 296,
+      "updated_at": "2026-06-01T11:30:41Z",
       "starred_at": "2026-03-08T18:19:50.922986Z",
       "category": "Security",
       "subcategory": "Network Security"
@@ -3368,40 +3515,12 @@
         "tag"
       ],
       "language": "Python",
-      "stars": 5679,
-      "forks": 411,
-      "updated_at": "2026-05-07T09:02:20Z",
+      "stars": 5758,
+      "forks": 414,
+      "updated_at": "2026-06-07T09:54:16Z",
       "starred_at": "2026-03-08T18:19:50.922981Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
-    },
-    {
-      "id": 756611765,
-      "full_name": "alireza0/s-ui",
-      "name": "s-ui",
-      "owner": "alireza0",
-      "html_url": "https://github.com/alireza0/s-ui",
-      "description": "An advanced Web Panel • Built for SagerNet/Sing-Box",
-      "homepage": "https://t.me/XrayUI",
-      "topics": [
-        "hysteria",
-        "hysteria2",
-        "naive-proxy",
-        "shadowsocks",
-        "shadowtls",
-        "sing-box",
-        "trojan",
-        "tuic",
-        "vless",
-        "vmess"
-      ],
-      "language": "Go",
-      "stars": 8699,
-      "forks": 1327,
-      "updated_at": "2026-05-07T08:55:39Z",
-      "starred_at": "2026-03-08T18:19:50.922976Z",
-      "category": "Networking & Protocol",
-      "subcategory": "Proxy & Gateway"
     },
     {
       "id": 192521247,
@@ -3418,9 +3537,9 @@
         "vcards"
       ],
       "language": "JavaScript",
-      "stars": 6220,
-      "forks": 311,
-      "updated_at": "2026-05-07T09:25:03Z",
+      "stars": 6232,
+      "forks": 309,
+      "updated_at": "2026-06-06T01:42:35Z",
       "starred_at": "2026-03-08T18:19:50.922966Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -3431,18 +3550,19 @@
       "name": "edgetunnel",
       "owner": "cmliu",
       "html_url": "https://github.com/cmliu/edgetunnel",
-      "description": "edgetunnel2 VLESS/Trojan 多功能面板",
+      "description": "edgetunnel2 VLESS/Trojan/SS 多功能面板",
       "homepage": "https://EDT-Pages.github.io/admin",
       "topics": [
-        "v2ray",
-        "v2ray-worker",
+        "shadowsocks",
+        "shadowsocks-ws-tls",
+        "trojan",
         "vless",
         "vless-ws-tls"
       ],
       "language": "JavaScript",
-      "stars": 33548,
-      "forks": 31682,
-      "updated_at": "2026-05-07T10:24:18Z",
+      "stars": 37170,
+      "forks": 33160,
+      "updated_at": "2026-06-07T10:18:38Z",
       "starred_at": "2026-03-08T18:19:50.922961Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -3457,9 +3577,9 @@
       "homepage": "https://screenshottocode.com",
       "topics": [],
       "language": "TypeScript",
-      "stars": 72460,
-      "forks": 8930,
-      "updated_at": "2026-05-07T07:41:30Z",
+      "stars": 72823,
+      "forks": 8962,
+      "updated_at": "2026-06-07T08:33:00Z",
       "starred_at": "2026-03-08T18:19:50.922956Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -3479,9 +3599,9 @@
         "theme"
       ],
       "language": "HTML",
-      "stars": 6371,
-      "forks": 1971,
-      "updated_at": "2026-05-07T07:42:30Z",
+      "stars": 6400,
+      "forks": 1975,
+      "updated_at": "2026-06-04T18:00:03Z",
       "starred_at": "2026-03-08T18:19:50.922950Z",
       "category": "Web Development",
       "subcategory": "UI Component Library"
@@ -3504,9 +3624,9 @@
         "static-site-generator"
       ],
       "language": "Go",
-      "stars": 87947,
-      "forks": 8251,
-      "updated_at": "2026-05-07T10:07:58Z",
+      "stars": 88442,
+      "forks": 8268,
+      "updated_at": "2026-06-07T09:35:43Z",
       "starred_at": "2026-03-08T18:19:50.922945Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -3524,9 +3644,9 @@
         "hexo-theme"
       ],
       "language": "JavaScript",
-      "stars": 133,
+      "stars": 134,
       "forks": 7,
-      "updated_at": "2026-05-07T01:03:36Z",
+      "updated_at": "2026-05-09T08:11:25Z",
       "starred_at": "2026-03-08T18:19:50.922940Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -3549,8 +3669,8 @@
       ],
       "language": "EJS",
       "stars": 548,
-      "forks": 80,
-      "updated_at": "2026-05-03T09:27:38Z",
+      "forks": 81,
+      "updated_at": "2026-06-01T03:09:02Z",
       "starred_at": "2026-03-08T18:19:50.922934Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -3575,9 +3695,9 @@
         "upload"
       ],
       "language": "TypeScript",
-      "stars": 1226,
+      "stars": 1236,
       "forks": 66,
-      "updated_at": "2026-05-07T04:59:53Z",
+      "updated_at": "2026-06-06T18:10:38Z",
       "starred_at": "2026-03-08T18:19:50.922929Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -3595,9 +3715,9 @@
         "wordpress"
       ],
       "language": "PHP",
-      "stars": 3809,
-      "forks": 597,
-      "updated_at": "2026-05-07T08:30:48Z",
+      "stars": 3812,
+      "forks": 595,
+      "updated_at": "2026-06-04T04:42:12Z",
       "starred_at": "2026-03-08T18:19:50.922923Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -3632,9 +3752,9 @@
         "wp"
       ],
       "language": "PHP",
-      "stars": 2907,
-      "forks": 474,
-      "updated_at": "2026-05-06T09:35:42Z",
+      "stars": 2918,
+      "forks": 473,
+      "updated_at": "2026-06-04T14:49:53Z",
       "starred_at": "2026-03-08T18:19:50.922917Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -3657,9 +3777,9 @@
         "startpage"
       ],
       "language": "JavaScript",
-      "stars": 29943,
-      "forks": 1896,
-      "updated_at": "2026-05-07T09:56:54Z",
+      "stars": 30540,
+      "forks": 1951,
+      "updated_at": "2026-06-07T10:06:29Z",
       "starred_at": "2026-03-08T18:19:50.922906Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -3687,9 +3807,9 @@
         "vue3"
       ],
       "language": "Vue",
-      "stars": 5117,
-      "forks": 605,
-      "updated_at": "2026-05-07T08:28:45Z",
+      "stars": 5168,
+      "forks": 607,
+      "updated_at": "2026-06-06T03:43:23Z",
       "starred_at": "2026-03-08T18:19:50.922900Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -3704,9 +3824,9 @@
       "homepage": "https://idm-vton.github.io/",
       "topics": [],
       "language": "Python",
-      "stars": 4991,
-      "forks": 812,
-      "updated_at": "2026-05-07T10:17:24Z",
+      "stars": 5049,
+      "forks": 816,
+      "updated_at": "2026-06-06T07:04:47Z",
       "starred_at": "2026-03-08T18:19:50.922893Z",
       "category": "AI / Machine Learning",
       "subcategory": "Computer Vision"
@@ -3742,9 +3862,9 @@
         "zerotrust"
       ],
       "language": "TypeScript",
-      "stars": 8241,
-      "forks": 918,
-      "updated_at": "2026-05-06T20:28:45Z",
+      "stars": 8239,
+      "forks": 916,
+      "updated_at": "2026-06-06T13:00:42Z",
       "starred_at": "2026-03-08T18:19:50.922887Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -3766,9 +3886,9 @@
         "workers"
       ],
       "language": "JavaScript",
-      "stars": 1039,
-      "forks": 364,
-      "updated_at": "2026-05-07T03:14:42Z",
+      "stars": 1044,
+      "forks": 361,
+      "updated_at": "2026-06-07T02:13:26Z",
       "starred_at": "2026-03-08T18:19:50.922881Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -3783,9 +3903,9 @@
       "homepage": "",
       "topics": [],
       "language": "TypeScript",
-      "stars": 1536,
-      "forks": 413,
-      "updated_at": "2026-05-07T07:19:29Z",
+      "stars": 1542,
+      "forks": 415,
+      "updated_at": "2026-06-07T05:15:14Z",
       "starred_at": "2026-03-08T18:19:50.922875Z",
       "category": "Developer Tools",
       "subcategory": "Code Quality"
@@ -3802,9 +3922,9 @@
         "honkai-star-rail"
       ],
       "language": "Python",
-      "stars": 4146,
-      "forks": 238,
-      "updated_at": "2026-05-07T08:41:38Z",
+      "stars": 4151,
+      "forks": 234,
+      "updated_at": "2026-06-07T06:21:18Z",
       "starred_at": "2026-03-08T18:19:50.922870Z",
       "category": "Game Development",
       "subcategory": "Game Tool"
@@ -3836,9 +3956,9 @@
         "xray-core"
       ],
       "language": "TypeScript",
-      "stars": 10321,
-      "forks": 31422,
-      "updated_at": "2026-05-07T10:25:54Z",
+      "stars": 11626,
+      "forks": 31430,
+      "updated_at": "2026-06-07T10:30:25Z",
       "starred_at": "2026-03-08T18:19:50.922864Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -3853,9 +3973,9 @@
       "homepage": "",
       "topics": [],
       "language": "TypeScript",
-      "stars": 1704,
-      "forks": 149,
-      "updated_at": "2026-05-07T03:24:44Z",
+      "stars": 1728,
+      "forks": 157,
+      "updated_at": "2026-06-06T05:39:51Z",
       "starred_at": "2026-03-08T18:19:50.922858Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -3876,9 +3996,9 @@
         "onebot11"
       ],
       "language": "TypeScript",
-      "stars": 8813,
-      "forks": 718,
-      "updated_at": "2026-05-07T07:49:59Z",
+      "stars": 9356,
+      "forks": 746,
+      "updated_at": "2026-06-07T09:33:18Z",
       "starred_at": "2026-03-08T18:19:50.922852Z",
       "category": "API & REST",
       "subcategory": "General"
@@ -3898,9 +4018,9 @@
         "yt-dlp"
       ],
       "language": "Python",
-      "stars": 13461,
-      "forks": 950,
-      "updated_at": "2026-05-07T10:00:08Z",
+      "stars": 13789,
+      "forks": 985,
+      "updated_at": "2026-06-07T08:30:49Z",
       "starred_at": "2026-03-08T18:19:50.922841Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -3915,9 +4035,9 @@
       "homepage": "https://dc.missuo.ru",
       "topics": [],
       "language": "HTML",
-      "stars": 211,
-      "forks": 39,
-      "updated_at": "2026-04-06T15:02:11Z",
+      "stars": 210,
+      "forks": 40,
+      "updated_at": "2026-06-04T14:52:43Z",
       "starred_at": "2026-03-08T18:19:50.922836Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -3935,9 +4055,9 @@
         "homepage"
       ],
       "language": "Vue",
-      "stars": 4546,
-      "forks": 3037,
-      "updated_at": "2026-05-07T06:19:11Z",
+      "stars": 4563,
+      "forks": 3047,
+      "updated_at": "2026-06-07T01:07:42Z",
       "starred_at": "2026-03-08T18:19:50.922830Z",
       "category": "Web Development",
       "subcategory": "Static Site"
@@ -3952,9 +4072,9 @@
       "homepage": "https://zelikk.blogspot.com/2022/07/url-shorten-worker-hide-tutorial.html",
       "topics": [],
       "language": "HTML",
-      "stars": 553,
-      "forks": 421,
-      "updated_at": "2026-05-06T07:05:30Z",
+      "stars": 555,
+      "forks": 419,
+      "updated_at": "2026-06-04T07:56:28Z",
       "starred_at": "2026-03-08T18:19:50.922824Z",
       "category": "Web Development",
       "subcategory": "Full-stack"
@@ -3965,7 +4085,7 @@
       "name": "vlc",
       "owner": "videolan",
       "html_url": "https://github.com/videolan/vlc",
-      "description": "VLC media player - All pull requests are ignored, please use MRs on https://code.videolan.org/videolan/vlc",
+      "description": "VLC media player - plays everything, runs anywhere. Code here: https://code.videolan.org/videolan/vlc",
       "homepage": "http://www.videolan.org/vlc",
       "topics": [
         "c",
@@ -3977,9 +4097,9 @@
         "vlc"
       ],
       "language": "C",
-      "stars": 18241,
-      "forks": 5926,
-      "updated_at": "2026-05-07T09:22:57Z",
+      "stars": 18631,
+      "forks": 5962,
+      "updated_at": "2026-06-07T09:56:09Z",
       "starred_at": "2026-03-08T18:19:50.922817Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -3996,9 +4116,9 @@
         "hacktoberfest"
       ],
       "language": "Dockerfile",
-      "stars": 1628,
-      "forks": 199,
-      "updated_at": "2026-05-07T08:42:06Z",
+      "stars": 1653,
+      "forks": 201,
+      "updated_at": "2026-06-06T22:17:43Z",
       "starred_at": "2026-03-08T18:19:50.922812Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -4009,23 +4129,28 @@
       "name": "CloudFlare-ImgBed",
       "owner": "MarSeventh",
       "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
-      "description": "A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
+      "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
       "homepage": "https://cfbed.sanyue.de",
       "topics": [
-        "cloudflare-pages",
+        "asset-management",
+        "cloud-native",
+        "cloudflare-d1",
         "cloudflare-r2",
-        "discord",
-        "gallery",
-        "huggingface",
+        "cloudflare-workers",
+        "edge-computing",
+        "image-gallery",
+        "image-hosting",
         "imgbed",
-        "netdisk",
-        "s3",
-        "telegram-bot"
+        "infra",
+        "media-server",
+        "multi-platform",
+        "serverless",
+        "uploader"
       ],
       "language": "JavaScript",
-      "stars": 5025,
-      "forks": 6128,
-      "updated_at": "2026-05-07T09:52:58Z",
+      "stars": 5277,
+      "forks": 6583,
+      "updated_at": "2026-06-07T07:01:52Z",
       "starred_at": "2026-03-08T18:19:50.922806Z",
       "category": "Web Development",
       "subcategory": "Full-stack"
@@ -4050,9 +4175,9 @@
         "sonarr"
       ],
       "language": "TypeScript",
-      "stars": 7160,
-      "forks": 301,
-      "updated_at": "2026-05-07T08:53:17Z",
+      "stars": 7203,
+      "forks": 303,
+      "updated_at": "2026-06-07T06:07:03Z",
       "starred_at": "2026-03-08T18:19:50.922801Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -4098,9 +4223,9 @@
         "xss-detection"
       ],
       "language": "Python",
-      "stars": 72473,
-      "forks": 8193,
-      "updated_at": "2026-05-07T10:21:10Z",
+      "stars": 77219,
+      "forks": 8756,
+      "updated_at": "2026-06-07T10:08:02Z",
       "starred_at": "2026-03-08T18:19:50.922790Z",
       "category": "Security",
       "subcategory": "Penetration Testing"
@@ -4125,9 +4250,9 @@
         "tgbot"
       ],
       "language": "Python",
-      "stars": 205,
+      "stars": 203,
       "forks": 21,
-      "updated_at": "2026-04-26T10:05:29Z",
+      "updated_at": "2026-06-06T09:57:52Z",
       "starred_at": "2026-03-08T18:19:50.922780Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -4149,9 +4274,9 @@
         "xunfei"
       ],
       "language": "",
-      "stars": 1973,
-      "forks": 436,
-      "updated_at": "2026-05-06T09:37:42Z",
+      "stars": 1961,
+      "forks": 431,
+      "updated_at": "2026-06-05T09:41:24Z",
       "starred_at": "2026-03-08T18:19:50.922775Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -4166,9 +4291,9 @@
       "homepage": "https://nezha-new.vercel.app",
       "topics": [],
       "language": "",
-      "stars": 174,
-      "forks": 35,
-      "updated_at": "2026-05-03T02:14:37Z",
+      "stars": 175,
+      "forks": 33,
+      "updated_at": "2026-05-18T16:19:57Z",
       "starred_at": "2026-03-08T18:19:50.922768Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Monitoring"
@@ -4183,9 +4308,9 @@
       "homepage": "",
       "topics": [],
       "language": "Kotlin",
-      "stars": 38949,
-      "forks": 2537,
-      "updated_at": "2026-05-07T10:21:34Z",
+      "stars": 40844,
+      "forks": 2644,
+      "updated_at": "2026-06-07T09:02:26Z",
       "starred_at": "2026-03-08T18:19:50.922762Z",
       "category": "Mobile Development",
       "subcategory": "Android"
@@ -4209,9 +4334,9 @@
         "readthedocs"
       ],
       "language": "Python",
-      "stars": 5714,
-      "forks": 10476,
-      "updated_at": "2026-05-07T07:51:25Z",
+      "stars": 5952,
+      "forks": 10608,
+      "updated_at": "2026-06-07T10:23:30Z",
       "starred_at": "2026-03-08T18:19:50.922757Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -4235,9 +4360,9 @@
         "xml"
       ],
       "language": "Python",
-      "stars": 3207,
-      "forks": 253,
-      "updated_at": "2026-05-06T09:32:08Z",
+      "stars": 3234,
+      "forks": 256,
+      "updated_at": "2026-06-06T13:24:41Z",
       "starred_at": "2026-03-08T18:19:50.922751Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -4258,9 +4383,9 @@
         "tv"
       ],
       "language": "JavaScript",
-      "stars": 13495,
-      "forks": 27229,
-      "updated_at": "2026-05-07T08:00:39Z",
+      "stars": 13626,
+      "forks": 27351,
+      "updated_at": "2026-06-07T09:03:56Z",
       "starred_at": "2026-03-08T18:19:50.922746Z",
       "category": null,
       "subcategory": null
@@ -4278,9 +4403,9 @@
         "self-hosted"
       ],
       "language": "TypeScript",
-      "stars": 594,
-      "forks": 57,
-      "updated_at": "2026-05-05T10:50:57Z",
+      "stars": 597,
+      "forks": 58,
+      "updated_at": "2026-06-03T09:00:36Z",
       "starred_at": "2026-03-08T18:19:50.922741Z",
       "category": "Web Development",
       "subcategory": "Full-stack"
@@ -4291,7 +4416,7 @@
       "name": "WeClone",
       "owner": "xming521",
       "html_url": "https://github.com/xming521/WeClone",
-      "description": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案  ",
+      "description": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  ",
       "homepage": "https://weclone.love",
       "topics": [
         "chat-history",
@@ -4301,9 +4426,9 @@
         "telegram"
       ],
       "language": "Python",
-      "stars": 17815,
-      "forks": 1511,
-      "updated_at": "2026-05-07T08:01:58Z",
+      "stars": 18010,
+      "forks": 1532,
+      "updated_at": "2026-06-07T09:32:47Z",
       "starred_at": "2026-03-08T18:19:50.922736Z",
       "category": "AI / Machine Learning",
       "subcategory": "Fine-tuning"
@@ -4318,9 +4443,9 @@
       "homepage": "",
       "topics": [],
       "language": "Shell",
-      "stars": 127,
-      "forks": 62,
-      "updated_at": "2026-05-07T03:50:16Z",
+      "stars": 128,
+      "forks": 63,
+      "updated_at": "2026-06-05T14:21:12Z",
       "starred_at": "2026-03-08T18:19:50.922730Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -4340,9 +4465,9 @@
         "utility"
       ],
       "language": "C#",
-      "stars": 4222,
-      "forks": 173,
-      "updated_at": "2026-05-07T04:03:16Z",
+      "stars": 4292,
+      "forks": 175,
+      "updated_at": "2026-06-06T13:34:21Z",
       "starred_at": "2026-03-08T18:19:50.922716Z",
       "category": "Developer Tools",
       "subcategory": "CLI Tool"
@@ -4357,9 +4482,9 @@
       "homepage": "",
       "topics": [],
       "language": "Go",
-      "stars": 1188,
+      "stars": 1181,
       "forks": 38,
-      "updated_at": "2026-05-05T04:43:13Z",
+      "updated_at": "2026-06-02T15:05:56Z",
       "starred_at": "2026-03-08T18:19:50.922710Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -4393,9 +4518,9 @@
         "zhihu"
       ],
       "language": "TypeScript",
-      "stars": 43877,
-      "forks": 9729,
-      "updated_at": "2026-05-07T10:06:05Z",
+      "stars": 44550,
+      "forks": 9903,
+      "updated_at": "2026-06-07T09:53:04Z",
       "starred_at": "2026-03-08T18:19:50.922704Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -4410,9 +4535,9 @@
       "homepage": "https://docs.one-kvm.cn",
       "topics": [],
       "language": "Rust",
-      "stars": 2337,
-      "forks": 240,
-      "updated_at": "2026-05-07T05:55:36Z",
+      "stars": 2383,
+      "forks": 244,
+      "updated_at": "2026-06-07T04:08:44Z",
       "starred_at": "2026-03-08T18:19:50.922682Z",
       "category": "Networking & Protocol",
       "subcategory": "Proxy & Gateway"
@@ -4444,9 +4569,9 @@
         "voiceconversion"
       ],
       "language": "Python",
-      "stars": 35496,
-      "forks": 5029,
-      "updated_at": "2026-05-07T08:56:10Z",
+      "stars": 35897,
+      "forks": 5065,
+      "updated_at": "2026-06-07T10:08:57Z",
       "starred_at": "2026-03-08T18:19:50.922677Z",
       "category": "AI / Machine Learning",
       "subcategory": "Audio & Speech"
@@ -4457,13 +4582,13 @@
       "name": "CookLikeHOC",
       "owner": "Gar-b-age",
       "html_url": "https://github.com/Gar-b-age/CookLikeHOC",
-      "description": "🥢像老乡鸡🐔那样做饭。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLikeHOC.",
+      "description": "🥢像老乡鸡🐔那样做饭。已添加2026年发布的《老乡鸡菜品溯源报告 2.0中新出现的菜品。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLikeHOC.",
       "homepage": "https://cooklikehoc.soilzhu.su",
       "topics": [],
-      "language": "JavaScript",
-      "stars": 23466,
-      "forks": 2345,
-      "updated_at": "2026-05-07T09:43:28Z",
+      "language": "Dockerfile",
+      "stars": 23593,
+      "forks": 2347,
+      "updated_at": "2026-06-07T10:10:27Z",
       "starred_at": "2026-03-08T18:19:50.922667Z",
       "category": "Learning Resource",
       "subcategory": "Tutorial"
@@ -4487,9 +4612,9 @@
         "windows"
       ],
       "language": "C++",
-      "stars": 15804,
-      "forks": 1187,
-      "updated_at": "2026-05-07T09:41:50Z",
+      "stars": 16087,
+      "forks": 1205,
+      "updated_at": "2026-06-07T10:17:53Z",
       "starred_at": "2026-03-08T18:19:50.922662Z",
       "category": "Game Development",
       "subcategory": "Game Tool"
@@ -4508,9 +4633,9 @@
         "sinicization"
       ],
       "language": "",
-      "stars": 7898,
-      "forks": 456,
-      "updated_at": "2026-05-07T08:35:38Z",
+      "stars": 8399,
+      "forks": 476,
+      "updated_at": "2026-06-07T09:53:52Z",
       "starred_at": "2026-03-08T18:19:50.922657Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Container & K8s"
@@ -4531,9 +4656,9 @@
         "telethon"
       ],
       "language": "Python",
-      "stars": 1099,
-      "forks": 208,
-      "updated_at": "2026-05-07T03:17:54Z",
+      "stars": 1125,
+      "forks": 222,
+      "updated_at": "2026-06-06T06:14:17Z",
       "starred_at": "2026-03-08T18:19:50.922651Z",
       "category": "Productivity & Utility",
       "subcategory": "Automation"
@@ -4565,9 +4690,9 @@
         "videos"
       ],
       "language": "TypeScript",
-      "stars": 99866,
-      "forks": 5545,
-      "updated_at": "2026-05-07T10:26:36Z",
+      "stars": 102788,
+      "forks": 5807,
+      "updated_at": "2026-06-07T10:29:02Z",
       "starred_at": "2026-03-08T18:19:50.922645Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -4587,9 +4712,9 @@
         "openlist"
       ],
       "language": "Go",
-      "stars": 22350,
-      "forks": 1942,
-      "updated_at": "2026-05-07T09:36:49Z",
+      "stars": 22915,
+      "forks": 2023,
+      "updated_at": "2026-06-07T09:20:47Z",
       "starred_at": "2026-03-08T18:19:50.922640Z",
       "category": "Productivity & Utility",
       "subcategory": "File Management"
@@ -4608,9 +4733,9 @@
         "oracle-cloud"
       ],
       "language": "Java",
-      "stars": 592,
-      "forks": 87,
-      "updated_at": "2026-05-07T08:22:35Z",
+      "stars": 669,
+      "forks": 100,
+      "updated_at": "2026-06-07T09:24:25Z",
       "starred_at": "2026-03-08T18:19:50.922634Z",
       "category": "DevOps & Infrastructure",
       "subcategory": "Cloud Platform"
@@ -4637,9 +4762,9 @@
         "website"
       ],
       "language": "Vue",
-      "stars": 38398,
-      "forks": 4820,
-      "updated_at": "2026-05-07T09:36:29Z",
+      "stars": 39181,
+      "forks": 5004,
+      "updated_at": "2026-06-07T10:26:35Z",
       "starred_at": "2026-03-08T18:19:50.922627Z",
       "category": "Developer Tools",
       "subcategory": "Code Quality"
@@ -4671,9 +4796,9 @@
         "wework"
       ],
       "language": "Python",
-      "stars": 56892,
-      "forks": 24141,
-      "updated_at": "2026-05-07T10:22:30Z",
+      "stars": 59091,
+      "forks": 24584,
+      "updated_at": "2026-06-07T10:00:01Z",
       "starred_at": "2026-03-08T18:19:50.922621Z",
       "category": "Data Engineering",
       "subcategory": "Data Visualization"
@@ -4688,9 +4813,9 @@
       "homepage": "https://magicalforest.io/cferr/editor/",
       "topics": [],
       "language": "HTML",
-      "stars": 5340,
-      "forks": 281,
-      "updated_at": "2026-05-07T02:14:10Z",
+      "stars": 5446,
+      "forks": 280,
+      "updated_at": "2026-06-07T02:22:32Z",
       "starred_at": "2026-03-08T18:19:50.922614Z",
       "category": "Web Development",
       "subcategory": "Web Performance"
@@ -4705,9 +4830,9 @@
       "homepage": "https://zhaoolee.com/ChromeAppHeroes/",
       "topics": [],
       "language": "JavaScript",
-      "stars": 25496,
-      "forks": 2620,
-      "updated_at": "2026-05-07T09:23:05Z",
+      "stars": 25619,
+      "forks": 2629,
+      "updated_at": "2026-06-07T10:18:10Z",
       "starred_at": "2026-03-08T18:19:50.922609Z",
       "category": "Learning Resource",
       "subcategory": "Tutorial"
@@ -4725,9 +4850,9 @@
         "star-rail"
       ],
       "language": "Python",
-      "stars": 10416,
-      "forks": 307,
-      "updated_at": "2026-05-07T07:46:29Z",
+      "stars": 10700,
+      "forks": 322,
+      "updated_at": "2026-06-07T10:02:51Z",
       "starred_at": "2026-03-08T18:19:50.922604Z",
       "category": "Game Development",
       "subcategory": "Game Tool"
@@ -4750,9 +4875,9 @@
         "personal"
       ],
       "language": "TypeScript",
-      "stars": 369248,
-      "forks": 76188,
-      "updated_at": "2026-05-07T10:25:10Z",
+      "stars": 377344,
+      "forks": 78885,
+      "updated_at": "2026-06-07T10:30:25Z",
       "starred_at": "2026-03-08T18:19:50.922598Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -4763,7 +4888,7 @@
       "name": "nanobot",
       "owner": "HKUDS",
       "html_url": "https://github.com/HKUDS/nanobot",
-      "description": "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\"",
+      "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
       "homepage": "https://nanobot.wiki",
       "topics": [
         "ai",
@@ -4774,15 +4899,16 @@
         "claude",
         "claude-code",
         "codex",
+        "codex-cli",
         "llm",
         "nanobot",
         "openai",
         "openclaw"
       ],
       "language": "Python",
-      "stars": 41874,
-      "forks": 7360,
-      "updated_at": "2026-05-07T10:26:24Z",
+      "stars": 43816,
+      "forks": 7748,
+      "updated_at": "2026-06-07T10:26:31Z",
       "starred_at": "2026-03-08T18:19:50.922592Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -4814,9 +4940,9 @@
         "telegram"
       ],
       "language": "Python",
-      "stars": 31528,
-      "forks": 2178,
-      "updated_at": "2026-05-07T10:26:05Z",
+      "stars": 34045,
+      "forks": 2337,
+      "updated_at": "2026-06-07T10:30:42Z",
       "starred_at": "2026-03-08T18:19:50.922581Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -4843,9 +4969,9 @@
         "vtuber"
       ],
       "language": "TypeScript",
-      "stars": 39026,
-      "forks": 3952,
-      "updated_at": "2026-05-07T10:14:01Z",
+      "stars": 40779,
+      "forks": 4100,
+      "updated_at": "2026-06-07T10:27:38Z",
       "starred_at": "2026-03-08T18:19:50.922575Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -4860,9 +4986,9 @@
       "homepage": "https://duanyytop.github.io/agents-radar",
       "topics": [],
       "language": "TypeScript",
-      "stars": 724,
-      "forks": 93,
-      "updated_at": "2026-05-07T09:24:06Z",
+      "stars": 803,
+      "forks": 121,
+      "updated_at": "2026-06-07T06:33:49Z",
       "starred_at": "2026-03-08T18:19:50.922568Z",
       "category": "Learning Resource",
       "subcategory": "Awesome List"
@@ -4877,9 +5003,9 @@
       "homepage": "",
       "topics": [],
       "language": "TypeScript",
-      "stars": 4731,
-      "forks": 1122,
-      "updated_at": "2026-05-07T10:01:16Z",
+      "stars": 4960,
+      "forks": 1185,
+      "updated_at": "2026-06-07T09:02:11Z",
       "starred_at": "2026-03-08T18:19:50.922560Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
@@ -4890,7 +5016,7 @@
       "name": "CLIProxyAPI",
       "owner": "router-for-me",
       "html_url": "https://github.com/router-for-me/CLIProxyAPI",
-      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API",
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
       "homepage": "",
       "topics": [
         "antigravity",
@@ -4901,9 +5027,9 @@
         "openai"
       ],
       "language": "Go",
-      "stars": 31116,
-      "forks": 5180,
-      "updated_at": "2026-05-07T10:24:25Z",
+      "stars": 36337,
+      "forks": 6028,
+      "updated_at": "2026-06-07T10:26:12Z",
       "starred_at": "2026-03-08T18:19:50.922538Z",
       "category": "AI / Machine Learning",
       "subcategory": "AI Agent"
